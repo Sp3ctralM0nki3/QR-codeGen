@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+from pyzbar.pyzbar import decode
+from PIL import Image
+
+img = Image.open('')    #select the qrcode you wish to decode
+
+result = decode(img)
+print(result)
